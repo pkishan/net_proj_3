@@ -9,7 +9,7 @@
 # see the following included file for system-specific settings
 include ENVCFG.MK
 
-CC=g++
+CC=gcc
 CFLAGS=-g -D$(ENV) -D_REENTRANT $(ENVCFLAGS) -Wall -W -Wno-unused-function \
        -Wno-unused-parameter #-DDEBUG
 LIBS=$(ENVLIBS)
